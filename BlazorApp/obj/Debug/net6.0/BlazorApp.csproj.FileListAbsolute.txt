@@ -1,0 +1,8 @@
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfoInputs.cache
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfo.cs
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cache
+C:\Users\Estudiante\BlazorTest\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cs
