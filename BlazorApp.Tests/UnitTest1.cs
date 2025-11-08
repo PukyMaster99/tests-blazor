@@ -8,6 +8,7 @@ public class UnitTest1
     public void SimpleTest_ShouldPass()
     {
         Assert.True(true);
+        Console.WriteLine("✅ ¡Prueba ejecutada en Jenkins!");
     }
 
     [Fact]
