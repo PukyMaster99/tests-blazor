@@ -19,7 +19,7 @@ pipeline {
                 dotnet build
                 
                 echo "Ejecutando pruebas..."
-                dotnet test
+                dotnet test BlazorApp.Tests
                 '''
             }
         }
