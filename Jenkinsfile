@@ -2,23 +2,23 @@ pipeline {
     agent any
     
     stages {
-        stage('Descargar Código') {
+        stage('Código') {
             steps {
                 checkout scm
-                echo '✅ Código descargado desde GitHub'
+                echo ''
             }
         }
         
         stage('Compilar y Probar') {
             steps {
                 bat '''
-                echo "🔧 Restaurando dependencias..."
+                echo "Restaurando dependencias..."
                 dotnet restore
                 
-                echo "🏗️ Compilando proyecto..."
+                echo "Compilando proyecto..."
                 dotnet build
                 
-                echo "🧪 Ejecutando pruebas..."
+                echo "Ejecutando pruebas..."
                 dotnet test
                 '''
             }
@@ -27,7 +27,7 @@ pipeline {
     
     post {
         always {
-            echo "🚀 Pipeline completado"
+            echo "Pipeline completado"
         }
     }
 }
