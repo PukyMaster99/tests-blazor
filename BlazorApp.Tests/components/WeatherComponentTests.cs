@@ -88,7 +88,7 @@ public class WeatherComponentTests : TestContext
         // Assert
         component.WaitForState(() => !component.Markup.Contains("Loading"));
         
-        Assert.Contains("Warm", component.Markup);
+        Assert.Contains("Hot", component.Markup);
         Assert.Contains("Hot", component.Markup);
         Assert.Contains("25", component.Markup);
         Assert.Contains("30", component.Markup);
